@@ -1,9 +1,10 @@
 *{
     box-sizing: border-box;
 }
-
+/* font-family: 'Karla', sans-serif;
+font-family: 'Montserrat', sans-serif; */
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     text-align:center;
     line-height: 1.5;
@@ -18,55 +19,104 @@ body {
     left: 0;
     right: 0;
     z-index: 10;
-    height: 90px;
+    
     background-color: #eeeeee;
     border-bottom: 1px solid #dddddd;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     
+}.top-nav {
+    margin-bottom: 10px;
 }
-.top-nav {
-   /* display:inline-block;  */
-    /* margin-top: 60px; */
+/* .top-nav {
+   
    position: absolute;
    top: 60px;
    padding-right: 5px;
    font-size: 12px;
-}
+} */
 
 .top-nav > a {
+    font-family: "Karla", sans-serif;
     text-decoration: none;
     padding-right: 15px;
-    font-size: 14px
+    font-size: 14px;
+    
 }
 
 .nav-bar > h1 {
+    font-family: "Karla", sans-serif;
     font-size: 30px;
-    margin-top: 10px;
-    padding: 5px;
+    color: blue;
+    margin-top: 20px;
+    
 }
+
 
 a {
     text-decoration: none;
   }
+  a:link { /* Essentially means a[href], or that the link actually goes somewhere */
+    color: blue;
+  }
+  a:visited {
+    color: #9e4fcc;
+  }
+  a:hover {
+    color: green;
+    cursor: pointer;
+  }
+  a:active {
+    color: red;
+  }
+.main {
+    margin-top: 125px;
+    
+    
+}
 
+hr {
+    display: block;
+    height: 1px;
+    width: 80%;
+    border: 0;
+    border-top: 1px solid black;
+    margin: auto auto;
+    padding: 0;
+}
 #banner {
-    min-height: 200px;
+    min-height: 100px;
     padding: 6%, 0;
-    background-color: rgb(133, 82, 82);
+    
+    /* z-index: 12; */
 }  
-
+section > h1 {
+    font-size: 50px;
+}
 #about-me {
   
     min-height: 200px;
+    width: 90%;
+    margin: auto auto;
     padding: 6%, 0;
-    background-color: #bbb;
+    
 }
 
 #portfolio {
     
     min-height: 200px;
-    paddingL 6%, 0;
-    background-color: #ddd;
+    width: 90%;
+    margin: auto auto;
+    padding: 6%, 0;
+    
+}
+
+h2 {
+    color: rgb(0, 164, 210);
+    font-size: 35px;
+    
+}
+footer {
+    margin-top: 30%;
 }

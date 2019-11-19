@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Karla|Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>HTML wireframe</title>
@@ -11,20 +12,31 @@
 <body>
     <div class="nav-bar">
         <h1>Peter Rufo</h1>
+        
         <nav class="top-nav" role="navigation">
-               <a href="" class="nav-link">About Me</a>
-               <a href="" class="nav-link">Portfolio</a>
-               <a href="" class="nav-link">Connect</a>
+               <a href="#about-me" class="nav-link">About Me</a>
+               <a href="#portfolio" class="nav-link">Portfolio</a>
+               <a href="#connect" class="nav-link">Connect</a>
         </nav>
     </div>
-    <main role="main">
+    <main class="main" role="main">
         <section id="banner">
             <h1>Hi, I'm Peter!</h1>
-            <h3>I live in the Boston area and I'm seeking employment as a Full Stack Developer</h3>
+            <hr/>
+            <!-- <h3>I live in the Boston area and I'm seeking employment as a Full Stack Developer</h3> -->
         </section>
         <section id="about-me">
-            <h2>About Me</h2>
-            <p>I’m a Web Developer living in Waltham, MA, just outside of Boston, MA. I am self-disciplined, motivated and I play well with others. Proud dad to Ryan and Sean. Photography is my other passion. Candy is my weakness. Addicted to spicy food. Bit of a beer geek. </p>
+            <h2>Here's a Little About Me</h2>
+            <p>I’m a Web Developer living in Waltham, MA, just outside of Boston, MA. I am self-disciplined, motivated and I play well with others. Proud dad to Ryan and Sean. Photography is my other passion. Addicted to spicy food. Bit of a beer geek. </p>
+            <div class="skills">
+                <span>I like to play with:</span>
+                <div class="skills-img">
+                <img src="images/HTML5_Logo_64.png" alt="html5 logo" height="30px">
+                <img src="images/css3.svg" alt="css logo" height="30px">
+                <img src="images/logo-javascript.svg" alt="javascript logo" height="30px">
+                <img src="images/jquery.svg" alt="jQuery logo" height="30px">
+                </div>
+            </div>
         </section>
         <section id="portfolio">
             <h2>Portfolio</h2>
@@ -39,13 +51,13 @@
         </section>
         <section id="connect">
             <h2>Connect:</h2>
-            <span>Email: <a href=" mailto:peter@peterrufo.com">peter@peterrufo.com</a></span>
-            <a href="https://github.com/pdrufo" target="blank">Github</a>
-            <a href="https://www.linkedin.com/in/peter-rufo-0a94794/" target="blank">LinkedIn</a>
+            <div class="email-text">Email: <a href=" mailto:peter@peterrufo.com">peter@peterrufo.com</a></div>
+            <div><a href="https://github.com/pdrufo" target="blank">Github</a></div>
+            <div><a href="https://www.linkedin.com/in/peter-rufo-0a94794/" target="blank">LinkedIn</a></div>
         </section>
-        <section id="skills">
+        <!-- <section id="skills">
             <h2>Skills:</h2>
-        </section>
+        </section> -->
     </main>
     <footer role="footer">&copy; 2019 Peter Rufo</footer>
     
