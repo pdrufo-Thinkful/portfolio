@@ -1,40 +1,181 @@
+/* font-family: 'Karla', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
 *{
     box-sizing: border-box;
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
     text-align:center;
     line-height: 1.5;
     display:flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
 }
 
-nav {
+.nav-bar {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
     
+    background-color:#1b2024;
+	box-shadow:0 1px 1px #ccc;
+	padding: 20px 40px;
+	height: 80px;
+	color: #ffffff;
+	box-sizing: border-box;
 }
 
-.logo{
-    padding: 30px;
+.nav-bar .nav-bar-limiter {
+    max-width:1200px;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.top-nav {
+    margin-bottom: 10px;
+    line-height: 1;
+    float: none;
+}
+
+.top-nav > a {
+    font-family: "Karla", sans-serif;
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 14px;
+    color: white;
+}
+
+.nav-bar .nav-bar-limiter h1 {
+    font-family: "Karla", sans-serif;
+    font-size: 24px;
+    color: #5383d3;
+    margin-top: 20px;
+    float: none;
+	margin: -8px 0 10px;
+	text-align: center;
+	line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}
+a:link { 
+    color: blue;
+}
+a:visited {
+    color: #9e4fcc;
+}
+a:hover {
+    color: green;
+    cursor: pointer;
+}
+a:active {
+    color: red;
+}
+
+.main {
+    margin-top: 80px; 
+}  
+
+#banner h1 {
+    font-size: 40px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 80%;
+    border: 0;
+    border-top: 1px solid black;
+    margin: auto auto;
+    padding: 0;
+}
+
+#banner {
+    min-height: 100px;
+    padding: 5% 0;
+}  
+
+section > h1 {
+    font-size: 50px;
 }
 
 #about-me {
-  
     min-height: 200px;
-    padding: 6%, 0;
-    background-color: #bbb;
+    width: 90%;
+    margin: auto auto;
+    padding: 5% 0;
 }
 
 #portfolio {
-    
     min-height: 200px;
-    paddingL 6%, 0;
-    background-color: #ddd;
+    width: 90%;
+    margin: auto auto;
+    padding: 5% 0;
+}
+.portfolio-container {
+    border: 1px solid gray;
+}
+
+h2 {
+    color:#5383d3;
+    font-size: 35px;
+}
+
+.screenshot {
+    width: 100%;
+    height:auto;
+}
+
+footer {
+    margin-top: 30%;
+}
+
+@media screen and (min-width: 320px) {
+    .nav-bar .nav-bar-limiter h1 {
+        font-size: 25px;
+        color: #5383d3;
+    }
+
+    .top-nav > a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .nav-bar .nav-bar-limiter h1 {
+        font-size: 40px;
+        margin-top: 20px;
+        float: left;
+    }
+    .top-nav {
+        float:right;
+    }
+    .top-nav a {
+        display:inline-block;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .nav-bar .nav-bar-limiter h1 {
+        font-size: 50px;
+        margin-top: 15px;
+        float: left;
+    }
+
+    .top-nav {
+        float:right;
+    }
+
+    .top-nav a {
+        display:inline-block;
+        font-size: 30px;
+        margin-top: 32px;
+    }
 }
