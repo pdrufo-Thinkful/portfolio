@@ -42,7 +42,7 @@ body {
     float: none;
 }
 
-.top-nav > a {
+.top-nav a {
     font-family: "Karla", sans-serif;
     text-decoration: none;
     padding-right: 15px;
@@ -65,17 +65,17 @@ a {
     text-decoration: none;
 }
 a:link { 
-    color: blue;
+    color: #ff8d52;
 }
 a:visited {
-    color: #9e4fcc;
+    color: #cc3f3b;
 }
 a:hover {
-    color: green;
+    color: #00ebb3;
     cursor: pointer;
 }
 a:active {
-    color: red;
+    color: rgb(247, 255, 96);
 }
 
 .main {
