@@ -13,6 +13,7 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #f9f9f9;
 }
 
 .nav-bar {
@@ -50,6 +51,8 @@ body {
     /* color: white; */
 }
 
+
+
 .nav-bar .nav-bar-limiter h1 {
     font-family: "Karla", sans-serif;
     font-size: 24px;
@@ -64,26 +67,40 @@ body {
 a {
     text-decoration: none;
 }
-a:link { 
+a.nav-link:link { 
     color: #ff8d52;
 }
-a:visited {
+a.nav-link:visited {
     color: #cc3f3b;
 }
-a:hover {
+a.nav-link:hover {
     color: #00ebb3;
     cursor: pointer;
 }
-a:active {
+a.nav-link:active {
     color: rgb(247, 255, 96);
+}
+a.body-link:link { 
+    color: #04368A;
+}
+a.body-link:visited {
+    color: #E01E00;
+}
+a.body-link:hover {
+    color: #00e6b0;
+    cursor: pointer;
+}
+a.body-link:active {
+    color: rgb(244, 255, 35);
 }
 
 .main {
     margin-top: 80px; 
 }  
 
-#banner h1 {
+#banner h2 {
     font-size: 40px;
+    color: black;
 }
 
 hr {
