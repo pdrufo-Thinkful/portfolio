@@ -137,6 +137,7 @@ section > h1 {
 }
 .portfolio-container {
     border: 1px solid gray;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -195,4 +196,12 @@ footer {
         font-size: 30px;
         margin-top: 32px;
     }
+    main {
+        width: 60%;
+        margin: auto auto;
+    }
+    .portfolio-container {
+        margin-bottom: 20px;
+    }
+    
 }
