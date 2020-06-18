@@ -127,19 +127,19 @@ section > h1 {
   padding: 5% 0;
 }
 .skills {
-    padding: 20px;
+  padding: 20px;
 }
 
 .skills-img {
-    padding: 20px;
+  padding: 20px;
 }
 
 img {
-    height: 30px;
+  height: 30px;
 }
 
 .jquery {
- height: 20px;
+  height: 20px;
 }
 #portfolio {
   min-height: 200px;
